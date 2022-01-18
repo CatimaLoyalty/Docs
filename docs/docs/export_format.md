@@ -25,7 +25,7 @@ The catima.csv file is a CSV file in the following format:
 [one line per link]
 ```
 
-Version number is always 2. If a database table is empty, there are simply no lines. For valid possible values for each table, see https://github.com/TheLastProject/Catima/wiki/Card-sharing-URL-format.
+Version number is always 2. If a database table is empty, there are simply no lines. For valid possible values for each table, see [Card sharing URL format](card_sharing_url_format).
 
 Example full export:
 ```
@@ -58,4 +58,4 @@ The image files are named using the following pattern:
 card_<id>_<side>.png
 ```
 
-With id referring to the id of the loyalty card it belongs to and side being either `front` or `back`.
+With id referring to the id of the loyalty card it belongs to and side being either `front`, `back` or `icon`.
