@@ -1,0 +1,4 @@
+---
+site_name: Catima Developer Documentation
+markdown_extensions:
+  - tables

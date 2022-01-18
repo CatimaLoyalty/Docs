@@ -6,6 +6,7 @@ URLs have the following parts:
 ## hostname and path
 
 Hostname and path must be any of the following combinations:
+
 | Hostname                 | Path                       | Description                                                            |
 | ------------------------ | -------------------------- | ---------------------------------------------------------------------- |
 | catima.app               | /share                     | Default since 2021-07-11                                               |
