@@ -43,7 +43,7 @@ key=urlencoded_value&key2=urlencoded_value2
 
 An example share URL is as follows:
 ```
-https://thelastproject.github.io/Catima/share#store%3DGrocery%2BStore%26note%3DQuite%2Bnecessary%26balance%3D150%26cardid%3Ddhd%26barcodetype%3DAZTEC%26headercolor%3D-9977996
+https://catima.app/share#store%3DGrocery%2BStore%26note%3DQuite%2Bnecessary%26balance%3D150%26cardid%3Ddhd%26barcodetype%3DAZTEC%26headercolor%3D-9977996
 ```
 
 ## Before 2.0
@@ -55,7 +55,7 @@ https://[hostname]/[path]?[parameters]
 
 An example share URL is as follows:
 ```
-https://thelastproject.github.io/Catima/share?store=Grocery%20Store&note=Quite%20necessary&balance=150&cardid=dhd&barcodetype=AZTEC&headercolor=-9977996
+https://catima.app/share?store=Grocery%20Store&note=Quite%20necessary&balance=150&cardid=dhd&barcodetype=AZTEC&headercolor=-9977996
 ```
 
 These are still imported for backwards compatibility, but no longer generated.
