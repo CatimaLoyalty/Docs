@@ -19,13 +19,13 @@ The catima.csv file is a CSV file in the following format:
 [one line per group]
 
 [card database table description]
-[one line per card]
+[one line per card] (may contain a multi-line note)
 
 [card to group linking database table description]
 [one line per link]
 ```
 
-Version number is always 2. If a database table is empty, there are simply no lines. For valid possible values for each table, see [Card sharing URL format](../card_sharing_url_format).
+Version number is always 2. If a database table is empty, there are simply no lines. For valid possible values for each table, see [Card fields](../card_fields). Do keep in mind that, depending on the Catima version, some fields may not be supported and thus missing from the export. You should treat all the fields you don't need as optional.
 
 Example full export:
 ```
@@ -36,13 +36,13 @@ Health
 Food
 Fashion
 
-_id,store,note,expiry,balance,balancetype,cardid,headercolor,barcodetype,starstatus
-8,Clothes Store,Note about store,,0,,a,-5317,,0
-2,Department Store,,,0,,A,-9977996,,0
-3,Grocery Store,,,150,,dhd,-9977996,,0
-4,Pharmacy,,,0,,dhshsvshs,-10902850,,0
-5,Restaurant,Note about restaurant here,,0,,98765432,-10902850,CODE_128,0
-6,Shoe Store,,,12.50,EUR,a,-5317,AZTEC,0
+_id,store,note,validfrom,expiry,balance,balancetype,cardid,barcodeid,barcodetype,headercolor,starstatus,lastused,archive
+1,Clothing Store,Note about store,,,0,,qw,,,-45147,1,1730493938,0
+2,Department Store,,,,0,,A,,,-1499549,0,1730493491,0
+3,Grocery Store,,,1453633200000,50,,dhd,,,-11751600,0,1730493369,0
+4,Pharmacy,,,,0,,dhshsvshs,,,-16766866,0,1684347330,1
+5,Restaurant,Note about restaurant here,,,0,,98765432,,CODE_128,-10902850,0,1730493357,0
+6,Shoe Store,,,,0,,zhxbx,,AZTEC,-6543440,0,1684347744,0
 
 cardId,groupId
 8,Fashion

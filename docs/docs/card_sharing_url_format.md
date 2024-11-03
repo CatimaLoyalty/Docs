@@ -14,19 +14,7 @@ Hostname and path must be any of the following combinations:
 | brarcher.github.io       | /loyalty-card-locker/share | For compatibility with https://github.com/brarcher/loyalty-card-locker |
 
 ## parameters
-The following parameters are supported:
-
-| Key  | Required | Valid values | Explanation |
-| ---- | -------- | ------------ | ----------- |
-| store | Yes | Any string | Name of the store this card belongs to |
-| note | Yes | Any string | An optional note for the end-user |
-| cardid | Yes | Any string | The loyalty card ID |
-| barcodeid | No | Any string | The value of the loyalty card barcode, if different from the loyalty card ID |
-| barcodetype | No | AZTEC, CODABAR, CODE_39, CODE_93, CODE_128, DATA_MATRIX, EAN_8, EAN_13, ITF, MAXICODE, PDF_417, QR_CODE, RSS_14, RSS_EXPANDED, UPC_A, UPC_E | The type of loyalty card barcode used |
-| balance | No | Any string value accepted by Java's BigDecimal constructor | The balance available in the loyalty card |
-| balancetype | No | Any valid ISO 4217 value or unset for "Points" | The balance currency (USD, EUR, etc.) or "points" |
-| expiry | No | Any UNIX timestamp | When the loyalty card expires |
-| headercolor | No | A valid Android color value (https://developer.android.com/reference/android/graphics/Color) | The color to use in the header and card background |
+The list of supported fields are listed in [Card fields](../card_fields).
 
 ## Catima 2.0
 
